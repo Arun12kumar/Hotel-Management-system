@@ -39,12 +39,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
 
     # create apps  
     'hotel',
     'user_dashboard',
     'addons',
     'userauths',
+    
 
     # third party apps
     'import_export',

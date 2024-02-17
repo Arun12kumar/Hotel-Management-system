@@ -15,6 +15,7 @@
     background-color: #F1F6FA;
     gap: 25px;
     padding: 0 120px;
+
 }
 .items:nth-of-type(1){
     flex-grow: 1;
@@ -72,6 +73,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 70px 0;
 }
 #btns{
     width: 90px;
@@ -97,4 +99,42 @@
 #logoavatar{
     width: 22px;
     
+}
+
+.hotel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    margin-bottom: 100px;
+}
+
+#hotel-pic{
+    width: 286px;
+    height: 200px;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+#dash{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#login{
+    width: 70px;
+    height: 34px;
+    background-color: #DE064F;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    transition: 300ms;
+}
+#login:hover{
+    transform: scale(1.06);
+    background-color: #9BC7E2;
+    color: #000;
 }

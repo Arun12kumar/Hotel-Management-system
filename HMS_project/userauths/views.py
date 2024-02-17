@@ -6,6 +6,7 @@ from userauths.models import User,Profile
 from userauths.forms import UserRegisterForm
 
 
+
 # Create your views here.
 
 def RegisterView(request):

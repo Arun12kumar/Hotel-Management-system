@@ -18,6 +18,7 @@ body{
     background-color: #F1F6FA;
     gap: 25px;
     padding: 0 120px;
+
 }
 .items:nth-of-type(1){
     flex-grow: 1;
